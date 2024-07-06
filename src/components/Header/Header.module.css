@@ -1,0 +1,24 @@
+@import url(../../styles/variables.module.css);
+
+.header{
+    position: sticky;
+    top: 0;
+    height: 70px;
+    max-width: 100vw;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-bottom: solid 20px var(--secundary-color);
+}
+.header span{
+    color: var(--background);
+    font-weight: 600;
+    font-size: 1.3em;
+}
+.header nav a{
+    margin-left: 15px;
+    font-size: 1em;
+    color: white;
+}

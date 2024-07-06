@@ -1,0 +1,16 @@
+@import url(../../styles/variables.module.css);
+
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border-top: solid 5px var(--secundary-color);
+    background-color: var(--background-box-color);
+}
+.footer p{
+    color: var(--secundary-color);
+}
