@@ -1,0 +1,18 @@
+@import url(../../styles/variables.module.css);
+
+.Card{
+    border-radius: 12px;
+    width: 240px;
+    background-color: var(--background-box-color);
+    padding: 12px;
+}
+.Card img{
+    height: 200px;
+    width: calc(240px - 24px);
+    border-radius: 12px;
+}
+.Card h2{
+    font-size: 1rem;
+    text-align: center;
+    max-width: max-content;
+}
