@@ -1,5 +1,8 @@
 @import url(../../styles/variables.module.css);
 
+.header a{
+    text-decoration: none;
+}
 .header{
     position: sticky;
     top: 0;
