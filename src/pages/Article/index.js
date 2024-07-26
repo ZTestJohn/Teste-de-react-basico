@@ -8,7 +8,7 @@ function Article() {
     <>
       <Header />
         <Container>
-            <section className={styles.NotFound}>
+            <section className={styles.Article}>
                   
             </section>
         </Container>
