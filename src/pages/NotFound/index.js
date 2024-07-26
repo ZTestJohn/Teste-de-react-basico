@@ -5,7 +5,7 @@ import styles from "./NotFound.module.css";
 
 function NotFound() {
   return (
-    <>
+    <main className={styles.main}>
       <Header />
       <Container>
         <section className={styles.NotFound}>
@@ -260,7 +260,7 @@ function NotFound() {
         </section>
       </Container>
       <Footer />
-    </>
+    </main>
   );
 }
 

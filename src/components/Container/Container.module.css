@@ -2,11 +2,12 @@
 
 .Container{
     width: 100%;
+    min-height: calc(100vh - 147px);
     padding-block: 20px;
-    min-height: 100%;
     text-align: center;
     color: var(--text-color);
 }
+
 .Container div {
     margin-top: 20px;
     gap: 20px;

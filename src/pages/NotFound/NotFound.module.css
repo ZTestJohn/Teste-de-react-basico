@@ -1,4 +1,12 @@
 .NotFound svg {
     height: 60vh;
+    width: 70vh;
 }
+.NotFound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
