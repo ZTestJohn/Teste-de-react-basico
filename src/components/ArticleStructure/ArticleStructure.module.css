@@ -1,0 +1,16 @@
+@import url(../../styles/variables.module.css);
+
+.ArticleText h1, h2{
+    font-family: var(--font);
+    font-weight: 500;
+    color: var(--text-color);
+}
+.ArticleText {
+    background-color: var(--background-box-color);
+    padding: 20px;
+    width: calc(74vw - 40px);
+    border-radius: 12px;
+}
+.ArticleText p {
+    color: var(--primary-color);
+}
