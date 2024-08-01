@@ -1,0 +1,11 @@
+.article{
+    display: flex;
+}
+.articleContent{
+    display: flex;
+    flex-direction: column;
+}
+.UserInfoAndComments{
+    display: flex;
+    flex-direction: column;
+}

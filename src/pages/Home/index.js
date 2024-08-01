@@ -1,4 +1,4 @@
-import styles from "./Home.module.css";
+// import styles from "./Home.module.css";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Banner from "../../components/Banner";
@@ -15,12 +15,13 @@ function Home() {
       <Container>
         <h1>Principais notícias</h1>
         <div>
-          {noticias.map((noticia) => {
+          {noticias.map(({ imagem_url, titulo, id }) => {
             return (
               <Card
-                img={noticia.imagem_url}
-                titulo={noticia.titulo}
-                key={noticia.key}
+                img={imagem_url}
+                titulo={titulo}
+                key={id}
+                id={id}
               />
             );
           })}

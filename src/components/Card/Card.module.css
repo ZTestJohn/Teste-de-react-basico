@@ -1,6 +1,7 @@
 @import url(../../styles/variables.module.css);
 
 .Card{
+    transition: all 0.5s ease;
     border-radius: 12px;
     width: 240px;
     background-color: var(--background-box-color);
@@ -15,4 +16,7 @@
     font-size: 1rem;
     text-align: center;
     max-width: max-content;
+}
+.Card:hover{
+    transform: scale(1.1);
 }

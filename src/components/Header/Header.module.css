@@ -1,9 +1,7 @@
 @import url(../../styles/variables.module.css);
 
-.header a{
-    text-decoration: none;
-}
 .header{
+    z-index: 1000;
     position: sticky;
     top: 0;
     width: 100%;
