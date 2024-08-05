@@ -3,13 +3,13 @@
 .Card{
     transition: all 0.5s ease;
     border-radius: 12px;
-    width: 240px;
+    width: 340px;
     background-color: var(--background-box-color);
     padding: 12px;
 }
 .Card img{
     height: 200px;
-    width: calc(240px - 24px);
+    width: 316px;
     border-radius: 12px;
 }
 .Card h2{

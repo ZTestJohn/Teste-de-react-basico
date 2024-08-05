@@ -19,7 +19,7 @@ function Home() {
             return (
               <Card
                 img={imagem_url}
-                titulo={titulo}
+                titulo={titulo + ' ' + id}
                 key={id}
                 id={id}
               />
